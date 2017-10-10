@@ -30,8 +30,7 @@ P{
    word-wrap:break-word;
 }
 
-ul,ol,li{
-	list-style:none;
-}
-
+ul, ol { 
+   list-style: none;
+ }
 
