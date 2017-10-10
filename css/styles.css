@@ -1,0 +1,12 @@
+@charset "gb2312";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 12px "ËÎÌו","Arial Narrow", HELVETICA;
+    color: #3F3E3C;
+
+}
