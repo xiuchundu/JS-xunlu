@@ -177,3 +177,65 @@ header nav ul li a:hover, #nav_current {
     border-radius: 6px;
     position: relative;
 }
+.ti { width: 0px; height: 0px; border-style: solid; border-width: 0px 0 20px 22px; border-color: transparent transparent transparent #111; position: absolute; left: 630px; top: 20px; }/* 三角形 */
+.ci { width: 10px; height: 10px; border-radius: 50%; position: absolute; left: 658px; top: 16px; background: #000; border: 2px solid #333; } /* 圆形定义边框色与背景一致 */
+.ci:hover { border: 2px solid #B9B9B9; }
+.arrow_box h2.title { padding: 0 0 0 20px; font: 16px/50px "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif }
+.arrow_box h2 a:hover { padding-left: 20px }
+.textinfo { overflow: hidden; }
+.arrow_box img { width: 150px; padding: 4px; float: left; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; border-radius: 4px; margin: 0 20px 20px; }
+.arrow_box img:hover { opacity: 0.6; }
+.arrow_box p { line-height: 24px; padding: 0 20px 20px }
+.arrow_box p:hover { text-shadow: 1px 1px 1px #000; }
+.details { background: rgba(1,1,1,0.3); border-radius: 0 0 6px 6px; padding: 0 10px }
+.details li { line-height: 26px; display: inline; font-size: 11px; margin-right: 10px; }
+.details li a { color: #3F3E3C }
+.details li a:hover { color: #933 }
+.icon-time, .likes, .comments { background: url(../images/icons.png) no-repeat }
+.icon-time { background-position: 0 -208px; padding: 0 0 0 18px; }
+.likes, .comments { float: right; padding: 0 0 0 14px; }
+.likes { background-position: 0 -240px; }
+.comments { background-position: 0 -220px; }
+/*-------------------aside侧边栏--------------------------*/
+aside { width: 310px; float: right; margin: 20px 0; }
+aside h2, footer h2 { font-size: 16px; margin-bottom: 10px; text-shadow: #000 1px 1px 1px; color: #ccc }
+aside div { box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7); border-radius: 6px; padding: 15px; background: #222; margin-bottom: 20px; overflow: hidden; }
+.tuijian li, .clicks li { white-space: nowrap; text-overflow: ellipsis; overflow: hidden }
+.tuijian li a:hover { padding-left: 10px }
+.tuijian li span:before { content: "0"; }/* 数字列表前面统一加0  */
+.tuijian li span { margin-right: 10px; font-size: 14px; font-family: "微软雅黑"; }
+.tuijian li:nth-child(-n+3) span { width: 39px; color: #999 } /* 选择从第3个开始倒数也就是第三个前面的 */
+.tuijian li:nth-child(-n+3) strong { font-size: 24px; font-weight: normal; }
+.tuijian li:first-child span { color: #f8490b; } /* 选择第一个 */
+.tuijian li:nth-child(n+3) { line-height: 24px } /* 选择从第3个开始往后数 */
+.tuijian li:nth-child(4) { margin: 5px 0 0 0 } /* 选择第四个 */
+/* 图文并茂 */
+.toppic li img { width: 80px; float: left; margin-right: 10px; }
+.toppic ul li:nth-child(2) { margin: 15px 0; }
+.toppic ul li a { display: block; width: 100%; clear: both; overflow: hidden }
+.toppic li p { color: #B5783E; padding-left: 110px; margin-top: 5px; background: url(../images/icons.png) no-repeat }
+.toppic li:first-child p { background-position: 90px -263px; }
+.toppic li:nth-child(2) p { background-position: 90px -283px; }
+.toppic li:last-child p { background-position: 90px -301px; }
+/* 热门点击 */
+.clicks li { line-height: 24px; }
+.clicks li span:before { content: "【"; }
+.clicks li span:after { content: "】"; }
+.clicks li span a { padding: 0 5px; color: #366 }
+.clicks li a:hover { text-decoration: underline }
+/* search */
+.searchform { overflow: hidden; padding: 10px; }
+.searchform input { background: rgba(0, 0, 0, 0.25) url(../images/icons.png) no-repeat 3px -318px; border: 1px solid #111; width: 220px; line-height: 30px; color: #b9b9b9; padding-left: 30px; }
+/* music */
+.viny dl dd { color: #b9b9b9; line-height: 24px; }
+.art { background: url(../images/vinyl.png) no-repeat left; width: 130px; float: left; background-size: 120px; }
+.viny .art img { width: 90px; height: 90px; margin-left: 11px }
+.viny dd span { width: 12px; height: 24px; margin-right: 7px; float: left; display: block; }
+.icon-song span, .icon-artist span, .icon-album span, .icon-like span { background: url(../images/icons.png) no-repeat }
+.icon-song span { background-position: -33px -344px }
+.icon-artist span { background-position: -16px -344px }
+.icon-album span { background-position: 0 -344px }
+.icon-like span { background-position: -1px -299px; }
+.icon-like a { color: #B5783E }
+.icon-like a:hover { color: #FFF; text-decoration: underline }
+.music audio { width: 100%; padding-top: 10px }
