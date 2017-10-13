@@ -91,6 +91,15 @@ header nav ul li a:hover, #nav_current {
     border-radius: 6px;    /*…Ë÷√‘≤Ω«*/
 }
 
+#logo a{
+    width: 70px;
+    height: 70px;
+    margin: 0px 70px 0px 70px;
+    position: absolute;
+    background: url("../images/logo.jpg") no-repeat;
+    display: block;
+}
+
 #content{
     width: 100%;
     border-top: #000 1px solid;
