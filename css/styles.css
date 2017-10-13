@@ -186,11 +186,21 @@ header nav ul li a:hover, #nav_current {
     border-radius: 6px;
     position: relative;
 }
+
+.blog_show{
+    font-size:14px;
+    color:yellow;
+    padding-right:20px;
+    padding-bottom: 10px;
+    float:right;
+}
+
+
 .ti { width: 0px; height: 0px; border-style: solid; border-width: 0px 0 20px 22px; border-color: transparent transparent transparent #111; position: absolute; left: 630px; top: 20px; }/* 三角形 */
 .ci { width: 10px; height: 10px; border-radius: 50%; position: absolute; left: 658px; top: 16px; background: #000; border: 2px solid #333; } /* 圆形定义边框色与背景一致 */
 .ci:hover { border: 2px solid #B9B9B9; }
 .arrow_box h2.title { padding: 0 0 0 20px; font: 16px/50px "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif }
-.arrow_box h2 a:hover { padding-left: 20px }
+.arrow_box h2 a:hover { padding-left: 20px }  /*实现小标题右移效果*/
 .textinfo { overflow: hidden; }
 .arrow_box img { width: 150px; padding: 4px; float: left; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; border-radius: 4px; margin: 0 20px 20px; }
 .arrow_box img:hover { opacity: 0.6; }
