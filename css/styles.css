@@ -34,7 +34,7 @@ ul,ol{
 }
 
 a{
-    font-size: 20px;
+        font-size: 20px;
 	color: #a6a6a6;
 	text-decoration: none;
 	transition: All 1s ease;
