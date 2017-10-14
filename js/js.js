@@ -7,6 +7,8 @@ function b(){
 		$('#gotop').hide();
 	}
 }
+
+
 $(document).ready(function(e) {
 	b();
 	$('#gotop').click(function(){
